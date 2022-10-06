@@ -1,0 +1,24 @@
+.cont1{
+    background-color: blue;
+    margin: 10px;
+    float: left;
+}
+.cont2{
+    background-color: red;
+    margin: 10px;
+    float: left;
+}
+
+.cont3{
+    background-color: green;
+    margin: 10px;
+    margin-top: 40px ;
+    clear: both;
+    height: 50px;
+    width: 90px;
+}
+
+/* .cont{
+    display: flex;
+    padding: 10px;
+} */

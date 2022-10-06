@@ -1,0 +1,31 @@
+body{
+    background-color: aqua;
+}
+
+h1{
+    color: black;
+}
+
+.titre1{
+    color: blue;
+}
+
+.titre2{
+    color: grey;
+}
+
+.para1{
+    border: red 3px solid;
+    background-color: royalblue;
+}
+
+.para2{
+    border: orange 3px solid;
+    background-color: royalblue;
+    border-radius: 10px;
+}
+
+.container{
+    background-color: white;
+    padding: 10px;
+}

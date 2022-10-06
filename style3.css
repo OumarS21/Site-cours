@@ -1,0 +1,80 @@
+.containerHaut{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.containerBloc{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.containerBas{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.haut{
+    border: black 3px solid;
+    border-radius: 10px;
+    background-color: greenyellow;
+    width: 100%;
+    text-align: center;
+
+}
+
+.bloc{
+    margin: 10px;
+    border: black 1px solid;
+    width: 4000px;
+    height: 360px;
+
+    
+}
+.bloc1{
+    margin: 10px;
+    border: black 1px solid;
+    width: 4000px;
+    height: 360px;
+    background-color: darkblue;
+    color: white;
+
+    
+}
+
+.titre{
+    border: black 1px solid;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+    background-color: chartreuse;
+    color:black;
+}
+
+.para{
+    padding: 0px;
+    text-align: center;
+    
+}
+
+
+.image{
+    width: 480px;
+    height: 290px;
+    
+}
+
+.bas{
+    border: black 3px solid;
+    border-radius: 10px;
+    background-color: greenyellow;
+    width: 100%;
+    text-align: center;
+}
+
+body{
+    background-color: green;
+}
