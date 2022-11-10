@@ -1,0 +1,21 @@
+.contBut{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.button{
+    width: 10rem;
+    height: 4rem;
+    background-color: blue;
+    border: blueviolet 3px solid;
+    border-radius: 5px;
+    margin: 5px;
+    list-style: none;
+}
+
+.button:hover{
+    width: 13rem;
+    transition: 0,65s;
+}
