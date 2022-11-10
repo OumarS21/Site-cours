@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(136, 136, 138);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#Menu{
+    width: 100px;
+    margin: 0px;
+    padding: 20px;
+    position: relative;
+    left: 35rem;
+}
+
+div#Menu ul{
+    padding: 0;
+    width: 100px;
+    border: 1px solid;
+    margin: 0px;
+}
+
+div#Menu ul li{
+    position: relative;
+    list-style: none;
+    border-bottom: 1px solid;
+}
+div#Menu ul ul{
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+
+
+div#Menu li a {
+    text-decoration: none;
+}
+
+
+div#Menu ul ul{
+    position: absolute;
+    top: 0;
+    left: 100px;
+    display: none;
+}
+div#Menu ul.niveau1 li.sousmenu:hover ul.niveau2,
+div#Menu ul.niveau2 li.sousmenu:hover ul.niveau3{
+    display: block;
+}
+
+
+div#Menu a{
+    color: #000000;
+}
+div#Menu li:hover{
+    background: rgb(161, 22, 196);
+}
+div#Menu li.sousmenu:hover{
+    background-color: rgb(8, 126, 204);
+}
+
+
+div#Menu li a {
+    text-decoration: none;
+    padding: 4px 0 3px 8px;
+    display: block;
+    border-left: 8x solid rgb(187, 187, 187);
+    width: 84px;
+}
+div#Menu li a:hover{
+    border-left-color: rgb(51, 185, 74);
+}
+div#Menu ul ul li a:hover{
+    border-left-color: #fbff00;
+}
+div#Menu ul ul ul li a:hover{
+    border-left-color: #02c5dfc2;
+}
