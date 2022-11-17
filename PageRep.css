@@ -112,6 +112,8 @@ body {
 }
 
 .contenu{
+    display: flex;
+    flex-direction: column;
     position: relative;
     background-color: black;
     height: 36rem;
