@@ -1,6 +1,6 @@
 body {
     margin:0;font-family:Arial;
-    background-image: url(/Exercice9/vagabond-leCoup.jpeg);
+    background-image: url(vagabond-leCoup.jpeg);
     background-repeat: no-repeat;
     background-size:cover;
     background-position-x: 28rem;
@@ -129,7 +129,7 @@ body {
 }
 
 .contenu:hover{
-    background-image: url(/Exercice9/hxh.jpeg);
+    background-image: url(hxh.jpeg);
     background-size: 45%;
     cursor: url('cursor(1).cur'), auto;
 }
