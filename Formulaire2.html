@@ -1,0 +1,69 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title> Formulaire Scolaire </title>
+    </head>
+    <body>
+        <h1> Formulaire d'inscription Scolaire </h1>
+        <p>
+            Activité physique visant à améliorer sa condition physique.
+            Ensemble des exercices physiques se présentant sous forme de jeux individuels ou collectifs, donnant généralement lieu à compétition, 
+            pratiqués en observant certaines règles précises.
+        </p>
+        <hr>
+        <table cellpadding="8">
+            <tr>
+                <td width="20%"> Votre nom* </td>
+                <td> 
+                    <input type="text" name="prenom" placeholder="Prénom" size="45"/>
+                    <input type="text" name="nom" placeholder="Nom" size="45"/>
+                 </td>
+            </tr>
+            <tr>
+                <td> Votre niveau </td>
+                <td> <input type="text" name="niveau" size="95"/> </td>
+            </tr>
+            <tr>
+                <td> Votre date de naissance </td>
+                <td> <input type="date" name="date" /> </td>
+            </tr>
+            <tr>
+                <td> La compétition qui<br> vous intéresse </td>
+                <td >
+                    <input type="radio" name="interesse"/> Artistique <br>
+                    <input type="radio" name="interesse"/> Athlétique  <br>
+                    <input type="radio" name="interesse"/> Cheerleadding <br>
+                    <input type="radio" name="interesse"/> Dicté
+                </td> 
+            </tr>
+            <tr>
+                <td> La compétition qui<br> vous a présenté(e) à la<br> compétition </td>
+                <td> <input type="text" name="niveau" size="95"/> </td>
+            </tr>
+            <tr>
+                <td> Téléphone </td>
+                <td> <input type="tel" name="tel" pattern="[06]-[00]-[00]-[00]-[00]" placeholder="06 00 00 00 00 00" size="45"/> </td>
+            </tr>
+            <tr>
+                <td> Personne de contact<br>(Tuteur legal) </td>
+                <td> <input type="text" name="contact" placeholder=" Nom Prénom" size="45"/>  </td>
+            </tr>
+            <tr>
+                <td> Téléphone de la <br>personne de contatc </td>
+                <td> <input type="tel" name="tetcontact" pattern="[06]-[00]-[00]-[00]-[00]" placeholder="06 00 00 00 00 00" size="45"/>  </td>
+            </tr>
+            <tr>
+                <td> Vos question sur la<br>compétition </td>
+                <td> <textarea rows="10" cols="90"></textarea> </td>
+            </tr>
+            <tr>
+                <td> Signature numériques </td>
+                <td> <textarea rows="5" cols="50"></textarea> </td>
+            </tr>
+        </table>
+        <center>
+            <button> Enregistrer </button>
+            <button> Annuler </button>
+        </center>
+    </body>
+</html>
