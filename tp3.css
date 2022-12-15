@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 100vh;
+    background: cornsilk;
+  
+}
+
+body .button {
+    margin-top: 2rem;
+    padding: 10%;
+    
+}
+
+button{
+    padding: 17px;
+    margin: 12px;
+    height: 4rem;
+    width: 22rem;
+    border-radius: 19px;
+    border: none;
+    background: linear-gradient(0.25turn, blue, blueviolet, purple);
+    color: cornsilk;
+    font-size: x-large;
+}
+
+button:hover{
+    background: linear-gradient(0.25turn, purple, blueviolet, blue);
+    width: 24rem;
+    cursor: help;
+}
+
+
+  
