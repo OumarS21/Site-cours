@@ -1,0 +1,48 @@
+body{
+    background-color: rgba(126, 0, 244, 0.537);
+    text-align: center;
+    width: 100vw;
+    height: 100vw;
+}
+
+#t1{
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+
+#t2{
+    
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+   
+    
+ 
+}
+
+button{
+    margin:  2%;
+    height: 4vw;
+    width: 10vw;
+}
+
+.entier{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    height: 8%;
+    
+}
+
+h2{
+    background-color: rgba(103, 103, 103, 0.861);
+    text-align: center;
+    padding: 15px;
+    width: 25%;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 30px;
+}
