@@ -1,0 +1,40 @@
+.tech{
+    width:50%;
+    height: 29rem;
+}
+
+
+body{
+    background-color: #7807CC;
+    font-family: 'Bungee Spice', cursive;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.accueil p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 108%;
+}
+
+.cheminCv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cheminCv button{
+    margin: 9px;
+    width: 34rem;
+    height: 5rem;
+    border: none;
+    background-image: linear-gradient(to right, red , rgb(255, 145, 0));
+    border-radius: 23px;
+    border-bottom: double;
+    color: white;
+}
+
+.cheminCv button:hover{
+    border-bottom: none;
+}
